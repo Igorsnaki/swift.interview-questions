@@ -3,12 +3,16 @@
 /*
 * Obj-C. Memory management (retain, release, autorelease, autorelease pool). ARC/Non ARC. Reference counting.
 * Obj-C. Categories/Extensions. Duplicated method in categories.
-* Obj-C. KVC
-* Obj-C. KVO
+* Obj-C. KVC. Issues.
+* Obj-C. KVO. Issues.
 * Obj-C. Method dispatching.
 * Obj-C/Swift. Retain cycle.
 * NSThread. Run loop. Event loop.
 * NSTimer. Run loop. Event loop.
+ */
+
+/*
+ * Swift. Error handling. NSError vs Error.
  */
 
 /*
@@ -25,5 +29,6 @@
 * White label applications.
 * Push notifications. Certificates, provision profiles.
 * Http request stack.
+* Swift vs Objective-C
  */
 
