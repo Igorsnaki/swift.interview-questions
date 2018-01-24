@@ -30,6 +30,7 @@
 
 /*
 * Delegate pattern vs Observer pattern.
+* Service Locator(SL) vs Dependency Injection(DI)
 * iOS Design Patters. MVC, VIPER, MVVM.
 * Dependency injection.
 * CocoaPods, Carthage.
