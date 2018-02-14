@@ -20,6 +20,7 @@
 
 /*
 * Frame vs Bounds.
+* Interface Builder. Top/Bottom Layout Guide. Safe area meaning.
 * CocoaTouch. Multithreading. NSOperation. GCD. Serial/concarrent queues. Dispatch async/sync.
 * UIKit. CALayer.
 * UIKit. View/View controller lifecycle. `awakeFromNib`, `initWithCoder`, `initWithFrame`
