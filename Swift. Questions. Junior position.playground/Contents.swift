@@ -23,11 +23,11 @@
  */
 
 /*
- * Multithreading and concurency. GCD. NSOperationQueue. Serial/concarrent queues. Dispatch async/sync.
- * NSThread. Runloop
- * performSelectorInBackground:withObject:
- * Async methods synchronization.
- * NSTimer. Run loop. Event loop.
+* Multithreading and concurency. GCD. NSOperationQueue. Serial/concarrent queues. Dispatch async/sync.
+* NSThread. Runloop
+* performSelectorInBackground:withObject:
+* Async methods synchronization.
+* NSTimer. Run loop. Event loop.
  */
 
 /*
