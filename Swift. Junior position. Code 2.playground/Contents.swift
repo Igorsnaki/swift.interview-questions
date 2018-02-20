@@ -2,6 +2,16 @@ import UIKit
 // Page 1
 
 /*
+
+// What result will be printed?
+var foo: UInt8 = 0
+foo = foo - 1
+print("Result is \(foo)")
+
+*/
+// ================================================================
+/*
+
 // Will the code below compile?
 struct Foo {
     let first = 1
@@ -16,11 +26,11 @@ foo1.first = 1
 
 let foo2 = Foo()
 foo2.second = 2
+
 */
-
 // ================================================================
-
 /*
+
 // Code improvements
 enum AppColors: UIColor {
     case primary
@@ -41,12 +51,14 @@ enum AppColors: UIColor {
 
 let button = UIButton()
 button.titleLabel?.textColor = AppColors.text.getColor()
+
 */
 
-// ================================================================
 
+// Page 2
 /*
- // Find an issue
+
+// Find an issue
 func swapTwoInts(_ a: Int, _ b: Int) {
     let temporaryA = a
     a = b
@@ -63,47 +75,68 @@ var someInt = 3
 var anotherInt = 5
 swapTwoInts(someInt, anotherInt)
 print("someInt is now \(someInt), and anotherInt is now \(anotherInt)")
+
+var someString = "3"
+var anotherString = "5"
+swapTwoStrings(someString, anotherString)
+print("someString is now \(someString), and anotherString is now \(anotherString)")
+
 */
-
 // ================================================================
-// Page 2
-
 /*
- // Code improvements
-struct Container {
+
+// Fix the issue
+struct User {
     var identifier: Int
 }
 
-let list = [Container(identifier: 3),
-            Container(identifier: 1),
-            Container(identifier: 6),
-            Container(identifier: 2)]
+let users = [User(identifier: 3),
+             User(identifier: 1),
+             User(identifier: 6),
+             User(identifier: 2)]
 
 let orderedList = list.sorted()
-print("sorted array: \(orderedList)")
+print("sorted users: \(orderedList)")
+
 */
 
+
+
+
+
+
+
+
+
+
+
+
+// Page 3
 /*
- // Find the issue
+
+// Find the issue
 class AppStateListener {
     var center = NotificationCenter.default
-    var notificationObserver: Any?
+    var observer: Any?
 
     init() {
-        notificationObserver = center.addObserver(forName: .UIApplicationWillResignActive,
-                                                  object: nil,
-                                                  queue: .main) { notification in
-                                                    self.logState(notification)
+        observer = center.addObserver(forName: .UIApplicationWillResignActive,
+                                      object: nil,
+                                      queue: .main) { notification in
+                                        self.logState(notification)
         }
     }
 
     func logState(_ notification: Notification) {
         print(notification.name)
+        // run tasks
     }
 
     deinit {
         center.removeObserver(notificationObserver)
     }
 }
-*/
+
+ */
+
 

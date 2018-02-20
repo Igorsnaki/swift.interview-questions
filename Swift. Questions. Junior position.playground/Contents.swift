@@ -37,9 +37,10 @@
 * UIKit. DisplayLink timer.
 * Secure storage on iOS. Keychain.
 * Core data. Uniq ID.
+* UIKit. Explain reuseIdentifier in the UITableViewCell/UICollectionView
 * UIKit. UITableView/UICollectionView. performBatchUpdates(_:completion:) (2 inserts 3 deletes)
 * UIStackView. Size classes.
-* Constraint-base (autolayout). Perform animation. Change priority. Draw an example to show priority changes!!!
+* Constraint-base (autolayout). Perform animation. Change priority. Draw an example to show priority changes!!!. Bouncing.
 * Interface Builder. Top/Bottom Layout Guide. Safe area meaning.
 * UIKit. UIView and CALayer relationships.
 * UIKit. View/View controller lifecycle. `awakeFromNib`, `initWithCoder`, `initWithFrame`
