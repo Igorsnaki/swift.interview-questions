@@ -15,6 +15,7 @@
 
 /*
 * Swift. Class vs structure. Value type vs Reference type
+* Swift. Enum. Raw Value vs Associated value.
 * Swift. Error handling. NSError vs Error.
 * Swift. Generics.
 * Swift. Obj-C compatibility.
@@ -54,6 +55,7 @@
 /*
 * Dependencies. Promises, Bolts Kit.
 * Release procedure. Provision profile, certificate meaning.
+* What to do if application crashes?
 * Delegate pattern vs Observer pattern.
 * Service Locator(SL) vs Dependency Injection(DI)
 * iOS Design Patters. MVC, VIPER, MVVM.
