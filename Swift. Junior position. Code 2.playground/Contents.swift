@@ -32,7 +32,7 @@ foo2.second = 2
 /*
 
 // Code improvements
-enum AppColors: UIColor {
+enum AppColors {
     case primary
     case secondary
     case text
