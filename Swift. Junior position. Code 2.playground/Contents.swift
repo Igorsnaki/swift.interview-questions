@@ -112,8 +112,8 @@ print("sorted users: \(orderedList)")
 
 
 // Page 3
-/*
 
+/*
 // Find the issue
 class AppStateListener {
     var center = NotificationCenter.default
@@ -133,10 +133,11 @@ class AppStateListener {
     }
 
     deinit {
-        center.removeObserver(notificationObserver)
+        center.removeObserver(observer)
     }
 }
 
- */
+*/
+
 
 
